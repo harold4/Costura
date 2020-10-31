@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net461</TargetFrameworks>
+    <TargetFrameworks>net48</TargetFrameworks>
     <DisableFody>true</DisableFody>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\AssemblyToReferencePreEmbedded\bin\$(ConfigurationName)\net461\AssemblyToReferencePreEmbedded.dll">
+    <EmbeddedResource Include="..\AssemblyToReferencePreEmbedded\bin\$(ConfigurationName)\net48\AssemblyToReferencePreEmbedded.dll">
       <Visible>false</Visible>
       <LogicalName>Costura.AssemblyToReferencePreEmbedded.dll</LogicalName>
     </EmbeddedResource>
