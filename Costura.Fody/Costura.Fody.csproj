@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="FodyHelpers" Version="6.0.0" />
 
-    <EmbeddedResource Include="$(SolutionDir)Costura.Template\bin\$(ConfigurationName)\netstandard2.0\Costura.Template.dll">
+    <EmbeddedResource Include="$(SolutionDir)Costura.Template\bin\$(ConfigurationName)\net48\Costura.Template.dll">
       <Link>bin\Template.dll</Link>
       <InProject>false</InProject>
       <LogicalName>Costura.Template.dll</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(SolutionDir)Costura.Template\bin\$(ConfigurationName)\netstandard2.0\Costura.Template.pdb">
+    <EmbeddedResource Include="$(SolutionDir)Costura.Template\bin\$(ConfigurationName)\net48\Costura.Template.pdb">
       <Link>bin\Template.pdb</Link>
       <InProject>false</InProject>
       <LogicalName>Costura.Template.pdb</LogicalName>
