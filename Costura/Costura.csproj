@@ -8,7 +8,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>$(SolutionDir)key.snk</AssemblyOriginatorKeyFile>
     <Authors>https://github.com/Fody/Costura/graphs/contributors</Authors>
-    <Description>Fody add-in for embedding references as resources.</Description>
+    <Description>Fody add-in for embedding references as resources. (harold version)</Description>
     <PackageTags>ILMerge, ILWeaving, Embed, Resource, Fody, Cecil</PackageTags>
     <PackageOutputPath>$(SolutionDir)nugets</PackageOutputPath>
     <PackageIconUrl>https://raw.githubusercontent.com/Fody/Costura/master/package_icon.png</PackageIconUrl>
