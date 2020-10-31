@@ -1,11 +1,11 @@
 <Project>
   <Target Name="IncludeFodyFiles">
     <PropertyGroup>
-      <WeaverFile>$(WeaverDirPath)\netstandard2.0\$(PackageId).dll</WeaverFile>
-      <XcfFile>$(WeaverDirPath)\netstandard2.0\$(PackageId).xcf</XcfFile>
+      <WeaverFile>$(WeaverDirPath)\$(TargetFramework)\$(PackageId).dll</WeaverFile>
+      <XcfFile>$(WeaverDirPath)\$(TargetFramework)\$(PackageId).xcf</XcfFile>
     </PropertyGroup>
 
-    <Error Text="FodyPackaging: No weaver found at $(WeaverFile). $(ProjectName) should have a Project Dependency on $(PackageId), and $(PackageId) should target 'netstandard2.0'."
+    <Error Text="FodyPackaging: No weaver found at $(WeaverFile). $(ProjectName) should have a Project Dependency on $(PackageId), and $(PackageId) should target '$(TargetFramework)'."
            Condition="!Exists($(WeaverFile))" />
 
     <ItemGroup>

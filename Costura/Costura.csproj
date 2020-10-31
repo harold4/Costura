@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   
-  <Import Project="$(MSBuildThisFileDirectory)FodyPackagind.props"/>
+  <Import Project="$(MSBuildThisFileDirectory)FodyPackaging.props"/>
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
@@ -19,5 +19,5 @@
     <PackageReference Include="Fody" Version="6.0.0" PrivateAssets="none" />
   </ItemGroup>
 
-  <Import Project="$(MSBuildThisFileDirectory)FodyPackagind.targets"/>
+  <Import Project="$(MSBuildThisFileDirectory)FodyPackaging.targets"/>
 </Project>
